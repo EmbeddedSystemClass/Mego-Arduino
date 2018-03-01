@@ -28,8 +28,11 @@
 
 #include "./common.h"
 
-static const uint8_t SDA = 4;
-static const uint8_t SCL = 5;
+#define PIN_WIRE_SDA (4)
+#define PIN_WIRE_SCL (5)
+
+static const uint8_t SDA = PIN_WIRE_SDA;
+static const uint8_t SCL = PIN_WIRE_SCL;
 
 static const uint8_t AI0 = 0;
 static const uint8_t AI1 = 1;
