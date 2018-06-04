@@ -283,7 +283,8 @@ uint8_t Sd2Card::init(uint8_t sckRateID, uint8_t chipSelectPin) {
   SPSR &= ~(1 << SPI2X);
 #else // USE_SPI_LIB
   SPI.begin();
-  settings = SPISettings(250000, MSBFIRST, SPI_MODE0);
+  //settings = SPISettings(250000, MSBFIRST, SPI_MODE0);
+  settings = SPISettings(sckRateID, MSBFIRST, SPI_MODE0);
 #endif // USE_SPI_LIB
 #endif // SOFTWARE_SPI
 

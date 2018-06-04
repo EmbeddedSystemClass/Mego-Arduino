@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map for RS485
+# (esp8266)
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RS485	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+stop	KEYWORD2
+update	KEYWORD2
+reset	KEYWORD2
+sendMsg	KEYWORD2
+available	KEYWORD2
+getData	KEYWORD2
+getLength	KEYWORD2
+getErrorCount	KEYWORD2
+getPacketStartTime	KEYWORD2
+isPacketStarted	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

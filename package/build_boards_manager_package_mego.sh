@@ -6,7 +6,7 @@ next=`sed -n -E 's/version=([0-9.]+)/\1/p' ../platform.txt`
 
 ver="${next}"
 package_name=mego-$ver
-prev_release="2.3.0"
+prev_release="2.5.0"
 
 echo "Version: $ver"
 echo "Package name: $package_name"
@@ -40,11 +40,11 @@ rm exclude.txt
 # Get additional libraries (TODO: add them as git submodule or subtree?)
 
 # SoftwareSerial library
-curl -L -o SoftwareSerial.zip https://github.com/plerup/espsoftwareserial/archive/3.3.1.zip
-unzip -q SoftwareSerial.zip
-rm -rf SoftwareSerial.zip
-mv espsoftwareserial-* SoftwareSerial
-mv SoftwareSerial $outdir/libraries
+#curl -L -o SoftwareSerial.zip https://github.com/plerup/espsoftwareserial/archive/3.3.1.zip
+#unzip -q SoftwareSerial.zip
+#rm -rf SoftwareSerial.zip
+#mv espsoftwareserial-* SoftwareSerial
+#mv SoftwareSerial $outdir/libraries
 
 # Copy qwavesys files
 cp -r $srcdir/qwavesys/libraries/* $outdir/libraries

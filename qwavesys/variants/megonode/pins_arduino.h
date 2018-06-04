@@ -31,33 +31,22 @@
 #define PIN_WIRE_SDA (4)
 #define PIN_WIRE_SCL (5)
 
+#define LED_BUILTIN 16
+
 static const uint8_t SDA = PIN_WIRE_SDA;
 static const uint8_t SCL = PIN_WIRE_SCL;
 
-static const uint8_t AI0 = 0;
-static const uint8_t AI1 = 1;
-static const uint8_t AI2 = 2;
-static const uint8_t AI3 = 3;
-static const uint8_t AI4 = 4;
-static const uint8_t AI5 = 5;
-static const uint8_t AI6 = 6;
-static const uint8_t AI7 = 7;
+static const uint8_t D0   = 16;
+static const uint8_t D1   = 5;
+static const uint8_t D2   = 4;
+static const uint8_t D3   = 0;
+static const uint8_t D4   = 2;
+static const uint8_t D5   = 14;
+static const uint8_t D6   = 12;
+static const uint8_t D7   = 13;
+static const uint8_t D8   = 15;
 
-static const uint8_t D0   = 0x20;
-static const uint8_t D1   = 0x21;
-static const uint8_t D2   = 0x22;
-static const uint8_t D3   = 0x23;
-static const uint8_t D4   = 0x24;
-static const uint8_t D5   = 0x25;
-static const uint8_t D6   = 0x26;
-static const uint8_t D7   = 0x27;
-static const uint8_t D8   = 0x28;
-static const uint8_t D9   = 0x29;
-static const uint8_t D10  = 0x2a;
-static const uint8_t D11  = 0x2b;
-static const uint8_t D12  = 0x2c;
-static const uint8_t D13  = 0x2d;
-static const uint8_t D14  = 0x2e;
-static const uint8_t D15  = 0x2f;
+static const uint8_t TXD   = 1;
+static const uint8_t RXD   = 3;
 
 #endif /* Pins_Arduino_h */

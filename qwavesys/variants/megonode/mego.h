@@ -9,6 +9,6 @@ public:
 EspVIEW espview;
 
 unsigned int ioEspVIEW[6];
-bool MEGO_IOExpander = true;
+bool MEGO_IOExpander = false;
 
 #endif
